@@ -1,0 +1,47 @@
+:global(body) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.text {
+  font-size: 40px;
+  color: white;
+  display: block;
+  padding: 30px;
+  margin-top: 300px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./assets/page.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+.cake {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.buttonPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 100px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
